@@ -85,9 +85,18 @@ pipenv run python manage.py ...
   - rebuild database tables after makemigrations with "migrate"
 
 - create admin user
+
   ```
   ... createsuperuser
   ```
+
+- running tests for an app
+
+```
+''' test app_name
+```
+
+- tests are stored in the tests.py file of an app's folder
 
 ## App Files and Usage
 
